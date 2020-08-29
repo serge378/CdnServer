@@ -1,0 +1,11 @@
+{
+  "name": "CdnServer",
+  "version": "1.0.0",
+  "description": "serving static files",
+  "main": "server.js",
+  "author": "serge bruno <sergebruno378@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
