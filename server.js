@@ -1,9 +1,13 @@
 const express = require("express");
 const app = express();
+const router = require("./router").router;
 
 app.use("/static", express.static("static"));
 
 app.set("views", __dirname + "/views");
+
+// Test server available
+app.use("/cdn", router);
 
 // 404 page
 app.use((req, res) => {
